@@ -1,0 +1,153 @@
+#products {
+    background-color: #f0f0f0;
+    padding-top: 20px;
+}
+
+#products .nav-tabs {
+    border-bottom: 1px solid #c0c0c0;
+    padding-left: 20px;
+}
+
+#products .nav-tabs li a {
+    border: none;
+    font-size: 16px;
+    color: #333;
+}
+
+#products .nav-tabs .active a {
+    background-color: transparent;
+    border-bottom: 4px solid #e92322;
+}
+#products .touch-scroll{
+}
+#products .tab-content {
+  padding-top: 20px;
+}
+#products .tab-content .tab-pane {
+    margin-bottom: 20px;
+}
+#products .panel-product {
+    background-color: #fff;
+    border-color: #fff;
+    margin-bottom: 20px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    cursor: pointer;
+}
+#products .panel-product:hover{
+    box-shadow: 4px 4px 5px #c0c0c0;
+}
+
+#products .panel-heading {
+    height: 150px;
+    width: 100px;
+    float: right;
+    border-left: 1px dashed #c0c0c0;
+    padding: 45px 0 35px;
+    text-align: center;
+    position: relative;
+}
+
+.panel-heading .tooltips {
+  position: absolute;
+  width: 100%;
+  top: 20px;
+}
+
+.panel-heading .tooltips span{
+  cursor: help;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  border: 1px solid;
+}
+.panel-heading .tooltips span.primary{
+  border-color: #e92322;
+  color: #e92322;
+}
+.panel-heading .tooltips span.secondary{
+  border-color: #399;
+  color: #399;
+}
+
+.panel-heading strong{
+  color: #e92322;
+  font-size: 36px;
+}
+.panel-heading sub{
+  color: #e92322;
+}
+.panel-heading span{
+  font-size: 10px;
+}
+.panel-heading::before{
+  background-color: #f0f0f0;
+  border-radius: 7px;
+  content: ' ';
+  display: block;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  top:-7px;
+  left: -7px;
+}
+.panel-heading::after{
+  background-color: #f0f0f0;
+  border-radius: 7px;
+  content: ' ';
+  display: block;
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  bottom:-7px;
+  left: -7px;
+  box-shadow: 0 2px 2px #c0c0c0 inset;
+}
+.panel-body{
+  height: 150px;
+  margin-right: 100px;
+}
+
+.panel-body h5 {
+    font-size: 16px;
+}
+.panel-body .text-left{
+  margin-bottom: 8px;
+}
+.panel-body .text-right{
+  margin-bottom: 8px;
+}
+
+.panel-body dt{
+  font-size: 10px;
+  color: #c0c0c0;
+}
+.panel-body dd{
+  font-size: 16px;
+}
+
+/*新手体验*/
+.panel-product.active{
+  background-color: #e92322!important;
+  border-color: #e92322!important;
+  color: #fff;
+  position: relative;
+}
+.panel-product.active strong{
+  color: #fff;
+}
+.panel-product.active sub{
+  color: #fff;
+}
+.panel-product.active::before{
+  content: "\e915";
+  font-family: wjs;
+  color: #fff;
+  font-size: 33px;
+  position: absolute;
+  top: -7px;
+  text-shadow: 1px 1px 5px #888;
+}
+.tab-content .btn-more{
+  width: 90%;
+}

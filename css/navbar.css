@@ -1,0 +1,17 @@
+.icon-icon{
+  font-size: 50px;
+  color: #E92322;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.icon-logo {
+  font-size: 32px;
+  color: #333;
+  line-height: 50px;
+  vertical-align: middle;
+}
+
+.navbar a{
+  color: #888;
+}

@@ -1,0 +1,16 @@
+.modal-header{
+  border-bottom: none;
+}
+.modal-title{
+  margin: 100px auto 0;
+}
+.modal-title i.icon-icon{
+  font-size: 160px;
+}
+.secTitle{
+  height: 80px;
+  line-height: 80px;
+}
+i.icon-logo{
+  font-size: 50px;
+}

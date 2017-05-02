@@ -1,0 +1,47 @@
+.topbar {
+    height: 40px;
+    border-bottom: 1px solid #c0c0c0;
+    line-height: 40px;
+}
+
+.topbar>.container>.row>div {
+    color: #888;
+    height: 40px;
+    font-size: 12px;
+}
+.navbar-wjs{
+  z-index: 999;
+}
+
+.topbar>.container>.row>div+div {
+    border-left: 1px solid #c0c0c0;
+}
+
+.topbar a {
+    color: #888;
+    text-decoration: none;
+}
+.topbar a:link,
+.topbar a:visited,
+.topbar a:hover,
+.topbar a:active
+{
+  text-decoration: none;
+  outline: none;
+}
+.topbar .btn-wjs-loginBtn {
+    color: #fff;
+}
+
+.topbar .mobile-link>img {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.topbar .mobile-link:hover>img {
+    display: block;
+    z-index: 9999;
+}

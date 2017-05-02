@@ -1,0 +1,23 @@
+#partner{
+  padding: 20px 0;
+}
+#partner .partner-list{
+  list-style: none;
+  font-size: 0;
+  padding: 0
+}
+#partner .partner-list > li{
+  display: inline-block;
+  width: calc(100%/9);
+  font-size: 50px;
+  line-height: 1;
+}
+
+.partner-list > li+li{
+  border-left: 1px dashed #c0c0c0;
+  color: #ddd;
+}
+.partner-list > li >a {
+  color: #999;
+  text-decoration: none;
+}

@@ -1,0 +1,19 @@
+#carousel-ad>.carousel-inner>.item {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+@media (min-width: 768px) {
+  #carousel-ad > .carousel-inner> .item{
+    height: 410px;
+  }
+}
+
+#carousel-ad>.carousel-inner>.item>img {
+    width: 100%;
+}
+
+#carousel-ad {
+  border-bottom: 1px solid #c0c0c0;
+}

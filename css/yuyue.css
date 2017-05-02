@@ -1,0 +1,24 @@
+#yuyue{
+  font-size: 16px;
+  padding: 20px 0;
+  border-bottom: 1px solid #c0c0c0;
+}
+#yuyue p{
+  margin-bottom: 0;
+}
+#yuyue a{
+  text-decoration: none;
+}
+#yuyue span,
+#yuyue .pull-left a{
+  color: #e92322;
+}
+#yuyue .pull-left a{
+  border-bottom: 1px dotted #e92322;
+}
+#yuyue .pull-right a{
+  color: #888;
+}
+#yuyue .pull-right a:hover{
+  color: #e92322;
+}

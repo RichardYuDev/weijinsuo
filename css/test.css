@@ -1,0 +1,31 @@
+/*将页面按功能区域分成几大块*/
+/*header{
+  height: 100px;
+  background-color: red;
+}*/
+section:nth-child(2n){
+  height: 200px;
+  background-color: green;
+}
+section:nth-child(2n+1){
+  height: 200px;
+  background-color: yellow;
+}
+footer{
+  height: 100px;
+  background-color: skyblue;
+}
+
+/*设置顶部通栏的分区*/
+#topbar #saoma{
+  background-color: #ccc;
+}
+#topbar #phone{
+  background-color: blue;
+}
+#topbar #wenti{
+  background-color: #c0c0c0;
+}
+#topbar #login{
+  background-color: blue;
+}
